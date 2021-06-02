@@ -40,10 +40,34 @@ body{
 	width: 40px;
 	border-radius: 50%;
 }
+.sidebar-menu{
+	margin-top: 40px;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	background-color:darkgray;
+	width: 200px;
+}
 .account{
 	margin-right: 70px;
 	display: flex;
 	padding: 0 10px;
 	align-items: center;
 	justify-content: center;
+}
+.sidebar-item>a{
+	text-decoration: none;
+	color: white;
+}
+.sidebar-item{
+	margin: 20px 0;
+	display: flex;
+	padding-left: 20px;
+
+}
+.sidebar-item-icon>i{
+	color: red;
+}
+.sidebar-item-icon{
+	padding-right:20px ;
 }
